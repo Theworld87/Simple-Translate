@@ -13,5 +13,5 @@ try:
         translated_file = translator.translate(text)  # Translates the the "text" file.
         print(translated_file)  # Prints the translated text file
 except FileNotFoundError as err:
-    print('Check your file-path, idiot')
+    print('Check your file-path, that might help.')
 
